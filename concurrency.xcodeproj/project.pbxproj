@@ -13,6 +13,7 @@
 		DBD9876F2A0C500D006BC409 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD9876D2A0C500D006BC409 /* Main.storyboard */; };
 		DBD987712A0C500E006BC409 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBD987702A0C500E006BC409 /* Assets.xcassets */; };
 		DBD987742A0C500E006BC409 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD987722A0C500E006BC409 /* LaunchScreen.storyboard */; };
+		DBD9877C2A0C5781006BC409 /* PokeAPI_Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD9877B2A0C5781006BC409 /* PokeAPI_Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DBD987702A0C500E006BC409 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBD987732A0C500E006BC409 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBD987752A0C500E006BC409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBD9877B2A0C5781006BC409 /* PokeAPI_Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeAPI_Helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				DBD987672A0C500D006BC409 /* AppDelegate.swift */,
 				DBD987692A0C500D006BC409 /* SceneDelegate.swift */,
 				DBD9876B2A0C500D006BC409 /* ViewController.swift */,
+				DBD9877B2A0C5781006BC409 /* PokeAPI_Helper.swift */,
 				DBD9876D2A0C500D006BC409 /* Main.storyboard */,
 				DBD987702A0C500E006BC409 /* Assets.xcassets */,
 				DBD987722A0C500E006BC409 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				DBD9876C2A0C500D006BC409 /* ViewController.swift in Sources */,
 				DBD987682A0C500D006BC409 /* AppDelegate.swift in Sources */,
 				DBD9876A2A0C500D006BC409 /* SceneDelegate.swift in Sources */,
+				DBD9877C2A0C5781006BC409 /* PokeAPI_Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
