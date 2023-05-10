@@ -24,14 +24,27 @@
                                     <action selector="printPokeData:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cle-97-sz6"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Cw0-ec-ydh">
+                                <rect key="frame" x="76.666666666666686" y="346.66666666666669" width="240" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="K6s-iS-7oI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Nor-MH-DQq" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Fd5-zF-vin"/>
+                            <constraint firstItem="Nor-MH-DQq" firstAttribute="top" secondItem="Cw0-ec-ydh" secondAttribute="bottom" constant="27.670000000000002" id="QJz-Zb-6AC"/>
+                            <constraint firstItem="Cw0-ec-ydh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lsG-ie-3sr"/>
                             <constraint firstItem="Nor-MH-DQq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="py2-NR-DT3"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="pokeName" destination="Cw0-ec-ydh" id="5FO-UF-CPM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
